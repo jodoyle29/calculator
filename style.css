@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.plate {
+	width: 400px;
+	height: 600px;
+}
+
+.display {
+	height: 100px;
+	width: 400px;
+	background: lightgray;
+	font-size: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.buttons {
+}
+
+.row {
+	display: flex;
+}
+
+button {
+	height: 100px;
+	width: 100px;
+	font-size: 20px;
+}
+
+#zero {
+	height: 100px;
+	width: 200px;
+}
